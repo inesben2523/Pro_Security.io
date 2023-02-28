@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+    
+  <title>Pentesting</title>
+ </head>
+
+<body data-spy="scroll" data-target="#main-nav" id="home">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Pro Security</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a href="#explore-head-section" class="nav-link">Expertise</a>
+          </li>
+          <li class="nav-item">
+            <a href="#create-head-section" class="nav-link">Solution</a>
+          </li>
+          <li class="nav-item">
+            <a href="#share-head-section" class="nav-link">Apropos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <header id="home-section">
+    <div class="dark-overlay">
+      <div class="home-inner container">
+        <div class="row">
+          <div class="col-lg-8 d-none d-lg-block">
+            <h1 class="display-4">  Pentest 
+             <strong>applicatif</strong>
+            </h1>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Auditer la sécurité de vos applications
+                et services web
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Sites institutionnels, sites e-commerce, applications CRM, API ...
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Devis sûre mesure
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card bg-primary text-center card-form">
+              <div class="card-body">
+                <h3>Rentrons en Contact</h3>
+                <p>Remplissez ce formulaire</p>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Nom">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control form-control-lg" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control form-control-lg" placeholder="Mot de passe">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control form-control-lg" placeholder="Confirmez mot de Passe">
+                  </div>
+                  <input type="submit" value="Envoyer" class="btn btn-outline-light btn-block">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- EXPLORE HEAD -->
+  <section id="explore-head-section">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Expertise</h1>
+          <p class="lead">Tester ses applications, c'est protéger son business.</p>
+          <a href="#" class="btn btn-outline-secondary">En savoir plus</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPLORE SECTION -->
+  <section id="explore-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/explore-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Test d'instrusion applicatif</h3>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <p><strong>Pentest manuel:</strong></p>
+              Nos tests de pénétration, réalisés par des experts certifiés, reposent sur l'exploitation manuelle des vulnérabilités, ce qui vous permet d'obtenir l'évaluation du risque business que seul un expert peut fournir.
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <p><strong>Communication constante:</strong></p>
+              Tout au long de l'audit, le pentester est en contact régulier avec son client pour notamment lui remonter les vulnérabilités les plus urgentes. Tous nos audits sont suivis d'un rapport complet, avec des descriptions non techniques et techniques, ainsi que des recommandations pour y remédier.
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <p><strong>Suivi global:</strong></p>
+              L'audit est essentiel mais n'est pas suffisant pour protéger ses applications. Un ensemble de solutions sont disponibles pour à la fois protéger et prévenir les attaques (WAF, SOC, code review, ...).
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATE HEAD -->
+  <section id="create-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Solution</h1>
+          <p class="lead"><strong>Pro Security</strong> vous aide à vous transformer pour répondre à vos enjeux métiers.<br> Accompagner votre croissance, Maîtriser vos enjeux.
+
+          </p>
+          <a href="#" class="btn btn-outline-light">En savoir plus</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATE SECTION -->
+  <section id="create-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2">
+          <img src="img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6 order-1">
+          <h3>Vos enjeux</h3>
+          <p>Acteurs du monde bancaire, du retail ou encore de la santé, vous évoluez dans un environnement en constante transformation. Votre métier change et vous devez profiter des nouvelles technologies pour gagner en efficacité, mais aussi pour innover et rester compétitif.</p>
+          
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <strong>E-Commerce:</strong><br>
+                      Les habitudes de consommation évoluent. Désormais vos clients exigent une expérience digitale fluide, unique et personnalisée, en magasin, comme sur le web. La performance et la disponibilité de vos applications font la différence entre le succès et l’échec commercial.
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <strong> Industrie:</strong><br>
+                      Du pilotage des centres de production à la gestion de la relation clients : tous les industriels doivent intégrer la digitalisation dans leurs processus de production. Cela implique des décisions stratégiques et de long terme quand au choix des technologies utilisées et des partenaires capables de les intégrer au mieux dans leur modèle économique.
+            </div>
+          </div>
+
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <strong>Santé:</strong><br>
+                    Héberger des données de santé requiert des mesures de sécurité, une infrastructure et une organisation particulières aux données sensibles. Découvrez comment nous collaborons avec nos clients pour garantir l'intégrité de leurs données, même sur des socles exposés.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHARE HEAD -->
+  <section id="share-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">A propos</h1>
+          <p class="lead">
+            Depuis sa création, <strong>Pro Security</strong> a toujours répondu à la même raison d’être : libérer le potentiel d’un monde numérique..<br>
+            Notre mission : assurer le succès de la modernisation IT de nos clients.</p>
+          <a href="#" class="btn btn-outline-light">En savoir plus</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHARE SECTION -->
+  <section id="share-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Notre vision</h3>
+          
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+             La réflexion à long terme domine tout ce que nous faisons chez <strong>Pro Security</strong> C'est pourquoi nos clients nous considèrent comme un partenaire digne de confiance, fiable et loyal. Nous ne prétendons pas être en mesure de tout faire, mais nous sommes des experts hautement respectés dans les domaines dans lesquels nous opérons. Pour que cela reste ainsi, nous nous concentrons sur nos compétences clés : aider les entreprises à détecter, analyser et se défendre contre les cyberattaques. .
+
+Nos employés sont essentiels au succès de <strong>Pro Security</strong>. Nous les soutenons et les encourageons plus que toute autre entreprise, en leur offrant des opportunités de s'impliquer, de s'épanouir et de réaliser leur potentiel. Nos collaborateurs nous restent fidèles et deviennent avec <strong>Pro Security</strong> des experts recherchés dans le domaine de la cyberdéfense.
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Nous apprécions évidemment notre responsabilité sociale. A travers des partenariats de long terme, nous contribuons à valoriser l'action des organisations à but non lucratif, des associations et des projets d'accompagnement pédagogique et de développement de la jeunesse.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+          <h3>Pro Security</h3>
+          <p>Copyright &copy;
+            <span id="year"></span>
+          </p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contactez-nous</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contactez-nous</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Nom</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Envoyer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
